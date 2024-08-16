@@ -2,7 +2,10 @@ body {
     color: white;
     background-color: rgb(55, 23, 24);
     margin: 0px;
-    font-family: "Chakra Petch", sans-serif;
+    @font-face{ 
+        /*Caso a fonte esteja dentro de uma pasta*/
+         src: url("C:\Users\Carlos Daniel\Eu\Fontes\Baby Doll.otf");
+    }
     margin-bottom: 100px;
 }
 
@@ -13,7 +16,7 @@ header {
     color: rgb(42, 122,228)
 }
 .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(84, 141, 140);
     padding-bottom: 80px;
     padding-top: 80px;
     display: flex;
